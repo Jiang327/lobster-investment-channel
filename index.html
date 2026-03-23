@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>重定向到小龙虾投资频道</title>
+    <meta http-equiv="refresh" content="0; url=lobster-investment-channel.html">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0a1a2a, #13273d);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+        }
+        h1 {
+            color: #00c087;
+            margin-bottom: 1rem;
+        }
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: #00c087;
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🦞 小龙虾投资频道</h1>
+        <p>正在跳转到投资交易分析页面...</p>
+        <p>如果页面没有自动跳转，请 <a href="lobster-investment-channel.html" style="color: #3a86ff;">点击这里</a></p>
+        <div class="loading">
+            <div class="spinner"></div>
+            <span>加载中...</span>
+        </div>
+    </div>
+</body>
+</html>
